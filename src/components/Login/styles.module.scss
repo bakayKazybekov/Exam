@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    label {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        span {
+            cursor: pointer;
+        }
+    }
+    &_error {
+        color: red;    
+    }
+    &_pass {
+        cursor: pointer;
+    }
+}
